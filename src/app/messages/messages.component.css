@@ -1,0 +1,27 @@
+/* MessagesComponent's private CSS styles */
+div {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background-color: #e8ebf7; /* lavanderhaze 300 */
+}
+
+h3 {
+  align-self: center;
+  margin: 0 0 10px;
+}
+
+.message-container {
+  /* border: 1px dashed black; */
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.clear {
+  margin: 10px 0 20px;
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  max-width: 300px;
+  align-self: center;
+}
